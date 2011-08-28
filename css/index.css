@@ -1,0 +1,48 @@
+body{
+   color:black;
+   font-size:12px;
+   margin: 0;
+}
+
+.hide{display:none;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.clearLeft{clear:left;}
+.clearRight{clear:right;}
+.clearBoth{clear:both;}
+
+#globalToolbar{
+   color: white;
+   background-color: blue;
+   width:100%;
+   height:50px;
+}
+
+#globalToolbar .banner{
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#loginLink{
+   font-weight: bold;
+   cursor: pointer;
+}
+
+#loginPanel{
+   width: 200px;
+   border: 1px solid blue;
+}
+
+#loginPanel span{
+   padding-right: 10px;
+}
+
+#username{
+   width: 100px;
+}
+#password{
+   width: 100px;
+}
+#loginButton{
+   width: 50px;
+}
