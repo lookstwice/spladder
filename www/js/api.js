@@ -55,7 +55,7 @@ eL.api.createTeam = function(game, teamName, teamCreator, joinPassword){
 }
 
 eL.api.getTeams = function(){
-   return ["douchebags", "dickheads"];
+   return ["douchebags", "dickheads"]; 
 }
 
 eL.api.getTeamsByGame = function(game){
@@ -69,5 +69,16 @@ eL.api.getTeam = function(team){
 
 //Helpers
 eL.api.call = function(uri, httpMethod, data){
-	
+	$.ajax({
+	   cache: false,
+	   type: httpMethod,
+	   async: false,
+	   url: uri,
+	   data: data,
+	   contentType: "application/json",
+	   dataType: "json",
+	   success: function(){
+	      alert("success");
+	   }
+	});
 }
