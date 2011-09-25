@@ -1,0 +1,3 @@
+configs/phpHammock.ini
+logs/access.log
+logs/errors.log
