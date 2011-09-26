@@ -4,12 +4,19 @@ body{
    margin: 0;
 }
 
+ul{
+   list-style-type:none;
+   padding: 0;
+   margin: 0;
+}
+
 .hide{display:none;}
 .floatLeft{float:left;}
 .floatRight{float:right;}
 .clearLeft{clear:left;}
 .clearRight{clear:right;}
 .clearBoth{clear:both;}
+.centerInFloat{margin-left:auto; margin-right:auto; text-align:center}
 
 #globalToolbar{
    color: white;
@@ -21,6 +28,10 @@ body{
 #globalToolbar .banner{
    font-weight: bold;
    font-size: 20px;
+}
+
+#userNextMatch{
+   margin-top: -20px;
 }
 
 #loginLink{
